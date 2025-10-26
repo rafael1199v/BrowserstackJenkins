@@ -5,7 +5,6 @@ Feature: Set clock configuration
         Given The user is on the "clock" section
         Then The section should have the title "Clock"
 
-    @Smoke
     Scenario: Add a new clock
         When Adds a new clock with the name "La Paz, Bolivia"
         Then There should be a clock with name "La Paz, Bolivia"
